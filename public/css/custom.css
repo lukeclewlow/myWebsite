@@ -1,5 +1,7 @@
 body {
 	font-family: 'Dosis', sans-serif;
+	background-image: url('/public/images/concrete_seamless.png');
+	padding-top: 2em;
 }
 
 nav {
@@ -7,6 +9,26 @@ nav {
 	font-size: 2em;
 }
 
+section {
+	/*font-family: 'Amatic SC', cursive;*/
+	font-family: 'Dosis', sans-serif;
+	font-size: 7em;
+}
+
+.top-word {
+	margin-top: 4.5em;
+}
+
+.top-word, .bottom-word {
+	/*font-family: 'Dosis', sans-serif;*/
+	font-family: 'Amatic SC', cursive;
+	font-size: 1em;
+}
+
 .name {
 	font-size: 1em !important;
+}
+
+.robot {
+	opacity: .1;
 }
