@@ -1,0 +1,12 @@
+body {
+	font-family: 'Dosis', sans-serif;
+}
+
+nav {
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+}
+
+.name {
+	font-size: 1em !important;
+}
