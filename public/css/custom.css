@@ -1,3 +1,5 @@
+/*MAIN ELEMENTS*/
+
 body {
 	font-family: 'Dosis', sans-serif;
 	background-image: url('/public/images/concrete_seamless.png');
@@ -15,12 +17,13 @@ section {
 	font-size: 7em;
 }
 
+/*CLASSES*/
+
 .top-word {
 	margin-top: 4.5em;
 }
 
 .top-word, .bottom-word {
-	/*font-family: 'Dosis', sans-serif;*/
 	font-family: 'Amatic SC', cursive;
 	font-size: 1em;
 }
@@ -30,5 +33,7 @@ section {
 }
 
 .robot {
-	opacity: .1;
+	height: 100%;
+	width: 100%;
+	opacity: .5;
 }
