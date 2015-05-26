@@ -20,6 +20,7 @@ section {
 	padding-top: 0 !important;
 }
 
+.voffset2 { margin-top: 10px; }
 /*BACKGROUND IMAGES*/
 
 .top-section {
@@ -84,6 +85,10 @@ section {
 #about {
 	text-align: center;
 	font-size: 1em !important;
+}
+
+#about-section {
+	
 }
 
 .heading {

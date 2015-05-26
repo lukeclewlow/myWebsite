@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <title>Luke Clewlow</title>
     <link type="text/css" rel="stylesheet" href="public/css/custom.css"/>
     <link type="text/css" rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
@@ -10,6 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="public/js/index.js"></script>
   </head>
   <body>
 
@@ -22,15 +23,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand name" href="#">Luke Clewlow</a>
+          <a class="navbar-brand name link" href=".robot">Luke Clewlow</a>
         </div>
 
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SKILLS</a></li>
-            <li><a href="#">INTERESTS</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a class="link" href=".about-section">ABOUT</a></li>
+            <li><a class="link" href=".skills-section">SKILLS</a></li>
+            <li><a class="link" href=".interests-section">INTERESTS</a></li>
+            <li><a class="link" href=".contact-section">CONTACT</a></li>
           </ul>
         </div>
       </div>
@@ -39,7 +40,7 @@
 
     <container class="container-fluid">
       <section id="container" class="top-section row-pad">
-        <row class="row first-row row-pad">
+        <row class="row first-row row-pad voffset2">
           <leftcol class="col-xl-4 col-md-6 col-sm-5">
             <h1 class="top-word">CREATIVE...</h1>
             <h1 class="bottom-word">WEB DEVELOPER...</h1>
@@ -52,7 +53,7 @@
       </section>
 
       <section id="container" class="about-section">
-        <row class="row" id="about">
+        <row class="row voffset2" id="about">
           <leftcol class="col-md-2"></leftcol>
           <midcol class="col-md-8">
             <h1 id="about">ABOUT</h1>
