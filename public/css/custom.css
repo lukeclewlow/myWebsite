@@ -1,5 +1,11 @@
 /*MAIN ELEMENTS*/
 
+html {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: grey;
+}
+
 body {
 	font-family: 'Dosis', sans-serif;
 	background-image: url('/public/images/concrete_seamless.png');
@@ -7,6 +13,8 @@ body {
 }
 
 nav {
+	max-width: 1200px;
+	margin:0 auto;
 	font-family: 'Amatic SC', cursive;
 	font-size: 2em;
 }
@@ -20,12 +28,13 @@ section {
 /*CLASSES*/
 
 .top-word {
-	margin-top: 4.5em;
+	margin-top: 0em;
 }
 
 .top-word, .bottom-word {
 	font-family: 'Amatic SC', cursive;
-	font-size: 1em;
+	font-size: 0.75em;
+	opacity: 0.5;
 }
 
 .name {
@@ -33,7 +42,69 @@ section {
 }
 
 .robot {
+	margin-right: -0.1em !important;
 	height: 100%;
 	width: 100%;
-	opacity: .5;
+	opacity: .1;
+	max-width: 439px;
+	max-height: 470px;
 }
+
+
+/* <------ RESPONSIVE DESIGN CHOICES ------> /*
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	.top-word, .bottom-word {
+		font-size: 1em;
+	}
+
+	.top-word {
+		margin-top: 2.5em;
+	}
+
+	.robot {
+		float: right;
+		height: 100%;
+		width: 100%;
+		opacity: .1;
+		max-width: 439px;
+		max-height: 470px;
+	}
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+	.top-word, .bottom-word {
+		font-size: 1em;
+	}
+
+	.top-word {
+		margin-top: 2.5em;
+	}
+
+	.robot {
+		float: right;
+		height: 100%;
+		width: 100%;
+		opacity: .1;
+		max-width: 439px;
+		max-height: 470px;
+	}
+}
+
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
+
