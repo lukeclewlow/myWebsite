@@ -2,14 +2,15 @@
 
 html {
 	/*max-width: 1200px;*/
+	font-size: 2em;
 	margin: 0 auto;
 	background-color: grey;
 }
 
 body {
-	font-family: 'Dosis', sans-serif;
 	background-image: url('/public/images/concrete_seamless.png');
 	padding-top: 2em;
+	font-family: 'Amatic SC', cursive !important;
 }
 
 nav {
@@ -20,8 +21,6 @@ nav {
 }
 
 section {
-	/*font-family: 'Amatic SC', cursive;*/
-	font-family: 'Dosis', sans-serif;
 	font-size: 7em;
 }
 
@@ -50,6 +49,16 @@ section {
 	max-height: 470px;
 }
 
+.info {
+	font-size: 0.5em;
+	padding-top: .25em;
+}
+
+#about {
+	text-align: center;
+	font-size: 1em !important;
+}
+
 
 /* <------ RESPONSIVE DESIGN CHOICES ------> /*
 
@@ -60,7 +69,7 @@ section {
 	}
 
 	.top-word {
-		margin-top: 55%;
+		margin-top: 45%;
 	}
 
 	.robot {
