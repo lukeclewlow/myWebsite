@@ -1,7 +1,7 @@
 /*MAIN ELEMENTS*/
 
 html {
-	max-width: 1200px;
+	/*max-width: 1200px;*/
 	margin: 0 auto;
 	background-color: grey;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-	max-width: 1200px;
+	/*max-width: 1200px;*/
 	margin:0 auto;
 	font-family: 'Amatic SC', cursive;
 	font-size: 2em;
@@ -60,7 +60,7 @@ section {
 	}
 
 	.top-word {
-		margin-top: 2.5em;
+		margin-top: 55%;
 	}
 
 	.robot {
@@ -68,8 +68,8 @@ section {
 		height: 100%;
 		width: 100%;
 		opacity: .1;
-		max-width: 439px;
-		max-height: 470px;
+		/*max-width: 800px;*/
+		/*max-height: 470px;*/
 	}
 }
 
