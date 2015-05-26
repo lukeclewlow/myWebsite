@@ -50,7 +50,7 @@ section {
 }
 
 .info {
-	font-size: 0.5em;
+	font-size: 0.25em;
 	padding-top: .25em;
 }
 
@@ -80,6 +80,11 @@ section {
 		/*max-width: 800px;*/
 		/*max-height: 470px;*/
 	}
+
+	.info {
+		font-size: 0.5em;
+		padding-top: .25em;
+	}
 }
 
 @media (min-width: 980px) and (max-width: 1199px) {
@@ -99,12 +104,20 @@ section {
 		max-width: 439px;
 		max-height: 470px;
 	}
+
+	.info {
+		font-size: 0.5em;
+		padding-top: .25em;
+	}
 }
 
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-
+	.info {
+		font-size: 0.5em;
+		padding-top: .25em;
+	}
 }
  
 /* Landscape phone to portrait tablet */
