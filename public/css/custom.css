@@ -1,20 +1,15 @@
 /*MAIN ELEMENTS*/
 
 html {
-	/*max-width: 1200px;*/
 	font-size: 2em;
 	margin: 0 auto;
-	background-color: grey;
 }
 
 body {
-	background-image: url('/public/images/concrete_seamless.png');
-	padding-top: 2em;
 	font-family: 'Amatic SC', cursive !important;
 }
 
 nav {
-	/*max-width: 1200px;*/
 	margin:0 auto;
 	font-family: 'Amatic SC', cursive;
 	font-size: 2em;
@@ -22,6 +17,21 @@ nav {
 
 section {
 	font-size: 7em;
+	padding-top: 0 !important;
+}
+
+/*BACKGROUND IMAGES*/
+
+.top-section {
+	background-image: url('/public/images/concrete_seamless.png');
+}
+
+.about-section {
+	background-image: url('/public/images/symphony.png');
+}
+
+.skills-section {
+	background-image: url('/public/images/swirl_pattern.png');
 }
 
 /*CLASSES*/
@@ -54,9 +64,30 @@ section {
 	padding-top: .25em;
 }
 
+.skills-heading {
+	font-size: 0.75em;
+	/*margin-bottom: 1em;*/
+}
+
+.skills-body {
+	text-align: left;
+	font-size: 0.3em;
+	padding: 0.1em;
+	margin-bottom: 3em;
+}
+
+.row-pad {
+	padding: 0;
+	margin: 0;
+}
+
 #about {
 	text-align: center;
 	font-size: 1em !important;
+}
+
+.heading {
+	margin: 0 auto !important;
 }
 
 
@@ -69,16 +100,15 @@ section {
 	}
 
 	.top-word {
-		margin-top: 45%;
+		margin-top: 45vh;
 	}
 
 	.robot {
+		margin: -1em;
 		float: right;
 		height: 100%;
 		width: 100%;
 		opacity: .1;
-		/*max-width: 800px;*/
-		/*max-height: 470px;*/
 	}
 
 	.info {
@@ -93,7 +123,7 @@ section {
 	}
 
 	.top-word {
-		margin-top: 2.5em;
+		margin-top: 45vh;
 	}
 
 	.robot {
