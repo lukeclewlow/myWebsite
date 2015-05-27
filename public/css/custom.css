@@ -32,6 +32,10 @@ section {
 }
 
 .skills-section {
+	background-image: url('/public/images/notebook.png');
+}
+
+.interests-section {
 	background-image: url('/public/images/swirl_pattern.png');
 }
 
@@ -41,13 +45,9 @@ section {
 	margin: 0 auto;
 }
 
-.top-word {
-	
-}
-
 .top-word, .bottom-word {
 	font-family: 'Amatic SC', cursive;
-	font-size: 0.75em;
+	font-size: 0.5em;
 	opacity: 0.5;
 }
 
@@ -65,20 +65,21 @@ section {
 }
 
 .info {
-	font-size: 0.25em;
+	font-size: 0.2em;
 	padding-top: .25em;
+	padding-bottom: 3em;
 }
 
 .skills-heading {
-	font-size: 0.75em;
+	font-size: 0.5em;
 	text-align: center;
 }
 
 .skills-body {
 	text-align: left;
-	font-size: 0.3em;
+	font-size: 0.2em;
 	padding: 0.1em;
-	margin-bottom: 3em;
+	margin-bottom: 1em;
 }
 
 #about {
@@ -103,7 +104,13 @@ section {
 .heading {
 	text-align: center;
 	font-size: 1em;
-	margin-top: 1em;
+	margin-top: 0.25em;
+}
+
+.hobby-icons {
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
 }
 
 
@@ -132,6 +139,15 @@ section {
 		font-size: 0.5em;
 		padding-top: .25em;
 	}
+
+	.heading {
+		font-size: 1em;
+		margin-top: 1em;
+	}
+
+	.skills-body {
+		margin-bottom: 3em;
+	}
 }
 
 @media (min-width: 980px) and (max-width: 1199px) {
@@ -156,24 +172,45 @@ section {
 		font-size: 0.5em;
 		padding-top: .25em;
 	}
+
+	.heading {
+		font-size: 1em;
+		margin-top: 1em;
+	}
 }
 
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
+	.top-word, .bottom-word {
+		font-size: 0.75em;
+	}
+
 	.top-word {
 		margin-top: 50%;
 	}
-	
+
 	.info {
 		font-size: 0.5em;
 		padding-top: .25em;
+	}
+
+	.heading {
+		font-size: 1em;
+		margin-top: 1em;
+	}
+
+	.skills-body {
+		font-size: 0.3em;
+		margin-bottom: 3em;
 	}
 }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-
+	.top-word, .bottom-word {
+		font-size: 0.5em;
+	}
 }
  
 /* Landscape phones and down */
