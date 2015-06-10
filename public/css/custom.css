@@ -3,6 +3,8 @@
 html {
 	font-size: 2em;
 	margin: 0 auto;
+	max-width: 1199px;
+	/*background-color: black;*/
 }
 
 body {
@@ -14,6 +16,7 @@ nav {
 	margin:0 auto;
 	font-family: 'Amatic SC', cursive;
 	font-size: 2em;
+	max-width: 1199px;
 }
 
 section {
@@ -36,13 +39,17 @@ section {
 }
 
 .interests-section {
+	/*background-image: url('/public/images/swirl_pattern.png');*/
+}
+
+.contact-section {
 	background-image: url('/public/images/swirl_pattern.png');
 }
 
 /*CLASSES*/
 
 .row {
-	margin: 0 auto;
+	margin: 0 auto !important;
 }
 
 .top-word, .bottom-word {
@@ -79,7 +86,7 @@ section {
 	text-align: left;
 	font-size: 0.2em;
 	padding: 0.1em;
-	margin-bottom: 1em;
+	margin-bottom: 5em;
 }
 
 #about {
@@ -110,9 +117,24 @@ section {
 .hobby-icons {
 	height: 100%;
 	width: 100%;
-	opacity: 0.5;
+	opacity: 1;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
+.contact-icons {
+	padding-top: .75em;
+	padding-bottom: 1.5em;
+	width: 100%;
+	height: auto;
+	transition: opacity 1s;
+	opacity: 0.5;
+	max-width: 200px;
+}
+
+.contact-icons:hover {
+	opacity: 1;
+}
 
 /* <------ RESPONSIVE DESIGN CHOICES ------> /*
 
@@ -145,8 +167,14 @@ section {
 		margin-top: 1em;
 	}
 
+	.skills-heading {
+	font-size: 0.5em;
+	text-align: center;
+	padding: 1em;
+}
+
 	.skills-body {
-		margin-bottom: 3em;
+		margin-bottom: 7em;
 	}
 }
 
