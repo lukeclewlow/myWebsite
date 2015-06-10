@@ -232,13 +232,6 @@ section {
 		font-size: 0.3em;
 		margin-bottom: 3em;
 	}
-}
- 
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-	.top-word, .bottom-word {
-		font-size: 0.5em;
-	}
 
 	.hobby-icons {
 		height: 100%;
@@ -247,6 +240,14 @@ section {
 		padding-top: 1em;
 		padding-bottom: 1em;
 	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.top-word, .bottom-word {
+		font-size: 0.5em;
+	}
+
 }
  
 /* Landscape phones and down */
