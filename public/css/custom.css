@@ -48,6 +48,11 @@ section {
 
 /*CLASSES*/
 
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
 .row {
 	margin: 0 auto !important;
 }
