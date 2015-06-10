@@ -179,6 +179,11 @@ section {
 	.skills-body {
 		margin-bottom: 7em;
 	}
+
+	.hobby-icons {
+		padding-top: 0.5em;
+		padding-bottom: 2em;
+	}
 }
 
 @media (min-width: 980px) and (max-width: 1199px) {
@@ -207,6 +212,10 @@ section {
 	.heading {
 		font-size: 1em;
 		margin-top: 1em;
+	}
+
+	.hobby-icons {
+		padding-bottom: 2em;
 	}
 }
 
@@ -237,10 +246,6 @@ section {
 	}
 
 	.hobby-icons {
-		height: 100%;
-		width: 100%;
-		opacity: 1;
-		padding-top: 1em;
 		padding-bottom: 2em;
 	}
 
