@@ -131,17 +131,21 @@ section {
 }
 
 .contact-icons {
+	text-align: center;
 	padding-top: .75em;
 	padding-bottom: 1.5em;
 	width: 100%;
 	height: auto;
-	transition: opacity 1s;
+	margin: 0 auto;
 	opacity: 0.5;
-	max-width: 200px;
+	max-width: 165px;
+	transition: opacity 1s;
+	transition: max-width 2s;
 }
 
 .contact-icons:hover {
 	opacity: 1;
+	max-width: 200px;
 }
 
 /* <------ RESPONSIVE DESIGN CHOICES ------> /*
