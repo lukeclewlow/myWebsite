@@ -114,11 +114,14 @@ section {
 	margin-top: 0.25em;
 }
 
+#interests-heading {
+	padding-bottom: 1em;
+}
+
 .hobby-icons {
 	height: 100%;
 	width: 100%;
 	opacity: 1;
-	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
 
@@ -240,6 +243,11 @@ section {
 		padding-top: 1em;
 		padding-bottom: 1em;
 	}
+
+	#interests-heading {
+		padding-bottom: 0em;
+	}
+
 }
  
 /* Landscape phone to portrait tablet */
