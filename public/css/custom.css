@@ -118,8 +118,8 @@ section {
 	height: 100%;
 	width: 100%;
 	opacity: 1;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 .contact-icons {
@@ -238,6 +238,14 @@ section {
 @media (max-width: 767px) {
 	.top-word, .bottom-word {
 		font-size: 0.5em;
+	}
+
+	.hobby-icons {
+		height: 100%;
+		width: 100%;
+		opacity: 1;
+		padding-top: 1em;
+		padding-bottom: 1em;
 	}
 }
  
