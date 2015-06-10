@@ -42,6 +42,10 @@ section {
 	/*background-image: url('/public/images/swirl_pattern.png');*/
 }
 
+.timeline-section {
+	background-image: url('/public/images/swirl_pattern.png');
+}
+
 .contact-section {
 	background-image: url('/public/images/swirl_pattern.png');
 }
@@ -115,7 +119,7 @@ section {
 
 .heading {
 	text-align: center;
-	font-size: 1em;
+	font-size: 0.75em;
 	margin-top: 0.25em;
 }
 
@@ -140,7 +144,7 @@ section {
 	opacity: 0.5;
 	max-width: 165px;
 	transition: opacity 1s;
-	transition: max-width 2s;
+	transition: max-width;
 }
 
 .contact-icons:hover {
