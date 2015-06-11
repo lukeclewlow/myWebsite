@@ -43,7 +43,7 @@ section {
 }
 
 .timeline-section {
-	background-image: url('/public/images/swirl_pattern.png');
+	background-image: url('/public/images/notebook.png');
 }
 
 .contact-section {
@@ -150,6 +150,10 @@ section {
 .contact-icons:hover {
 	opacity: 1;
 	max-width: 200px;
+}
+
+.timeline-info {
+	font-size: .2em !important;
 }
 
 /* <------ RESPONSIVE DESIGN CHOICES ------> /*
