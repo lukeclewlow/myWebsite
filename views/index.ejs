@@ -17,165 +17,23 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" >
-
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand name link" href=".robot">Luke Clewlow</a>
-        </div>
-
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a class="link" href=".about-section">ABOUT</a></li>
-            <li><a class="link" href=".skills-section">SKILLS</a></li>
-            <li><a class="link" href=".interests-section">INTERESTS</a></li>
-            <li><a class="link" href=".timeline-section">TIMELINE</a></li>
-            <li><a class="link" href=".contact-section">CONTACT</a></li>
-          </ul>
-        </div>
-      </div>
-
-    </nav>
+    <% include partials/header %>
 
     <div class="container-fluid">
-      <section class="top-section section">
-        <div class="row first-row">
-          <div class="col-xl-8 col-md-6 col-sm-7 col-md-push-6 col-sm-push-5">
-            <img src="/public/images/robot_smoking.gif" class="robot">
-          </div> 
-          <div class="col-xl-4 col-md-6 col-sm-5 col-md-pull-6 col-sm-pull-7">
-            <h1 class="top-word">CREATIVE...</h1>
-            <h1 class="bottom-word">WEB DEVELOPER...</h1>
-            <h1 class="bottom-word">PROBLEM SOLVER...</h1>
-          </div> 
-        </div>
-      </section>
 
-      <section class="about-section section">
+      <% include partials/home %>
 
-        <div class="row" id="row-pad">
-          <div class="col-md-2"></div>
-          <div class="col-md-8">
-            <h1 class="heading">ABOUT</h1>
-            <p class="info">A creative coder with a passion for tech. After graduating in PHILOSOPHY from the University of West of England, and spending time as an accountant, I discovered a passion for programming, left my job and embarked upon a web development 'bootcamp' with the esteemed Makers Academy in London.</p>
-          </div>
-          <div class="col-md-2"></div>
-        </div>
-        
-      </section>
+      <% include partials/about %>
 
-      <section class="skills-section section">
+      <% include partials/skills %>
 
-        <div class="row" id="row-pad">
+      <% include partials/interests %>
 
-          <div class="col-md-12">
-            <h1 class="heading">SKILLS</h1>
-          </div>
+      <% include partials/timeline %>
 
-          <div class="col-md-4">
-            <h2 class="skills-heading">CODE</h2>
-            <p class="skills-body">Makers Academy put an emphasis on learning great coding practices and writing easy to read and maintainable code. I learnt about object-oriented programming, SOLID design principles, test-driven development and agile methodology.</p>
-          </div>
-
-          <div class="col-md-4">
-            <h2 class="skills-heading">PROBLEM SOLVING</h2>
-            <p class="skills-body">Coming from a background in Philosophy I was already well-versed in how to approach problems. Understanding of the problem space and thinking rationally about possible solutions. This has helped me become a self-starting and independent learner.</p>
-          </div>
-
-          <div class="col-md-4">
-            <h2 class="skills-heading">LOGIC</h2>
-            <p class="skills-body">I learnt pure logic whilst at University. This has helped me approach programming in an effective way. I am better able to understand complex computational problems and algorithms through my previous work with this.</p>
-          </div>
-
-        </div>
-
-      </section>
-
-      <section class="interests-section section">
-        <div class="row" id="row-pad">
-
-          <div class="col-md-12">
-            <h1 class="heading" id="interests-heading">INTERESTS</h1>
-          </div>
-
-          <div class="col-sm-2 col-xs-4">
-            <img class="hobby-icons" src="/public/images/Camping.jpg">
-          </div>
-          <div class="col-sm-2 col-xs-4">
-            <img class="hobby-icons" src="/public/images/climbing.jpg">
-          </div>
-          <div class="col-sm-2 col-xs-4">
-            <img class="hobby-icons" src="/public/images/mountain-biking.jpg">
-          </div>
-          <div class="col-sm-2 col-xs-4">
-            <img class="hobby-icons" src="/public/images/outdoors.jpg">
-          </div>
-          <div class="col-sm-2 col-xs-4">
-            <img class="hobby-icons" src="/public/images/swimming.jpg">
-          </div>
-          <div class="col-sm-2 col-xs-4">
-            <img class="hobby-icons" src="/public/images/beaches.jpg">
-          </div>
-        </div>
-      </section>
-
-      <section class="timeline-section" id="cd-timeline">
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <img src="/public/images/makersacademy.png" alt="Picture">
-          </div> <!-- cd-timeline-img -->
-       
-          <div class="cd-timeline-content">
-            <h2>Makers Academy</h2>
-            <p class="timeline-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-            <span class="cd-date">Dec 14</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-        
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <img src="/public/images/makersacademy.png" alt="Picture">
-          </div> <!-- cd-timeline-img -->
-       
-          <div class="cd-timeline-content">
-            <h2>Makers Academy</h2>
-            <p class="timeline-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-            <span class="cd-date">Dec 14</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-      </section>
-
-      <section class="contact-section section">
-        <div class="row" id="row-pad">
-
-          <div class="col-md-12">
-            <h1 class="heading">CONTACT</h1>
-          </div>
-
-          <div class="col-md-3 col-xs-0"></div>
-
-          <div class="col-md-2 col-xs-4">
-            <a href="mailto:luke.clewlow@gmail.com"><img class="contact-icons" id="email-icon" src="/public/images/email11.svg"></a>
-          </div>
-          <div class="col-md-2 col-xs-4">
-            <a href="https://www.linkedin.com/profile/view?id=408402090&trk=hp-identity-name" target="_blank"><img class="contact-icons" src="/public/images/linkedin11.svg"></a>
-          </div>
-          <div class="col-md-2 col-xs-4">
-            <a href="https://github.com/lukeclewlow" target="_blank"><img class="contact-icons" src="/public/images/github11.svg"></a>
-          </div>
-
-          <div class="col-md-3 col-sm-0 col-xs-0"></div>
-
-        </div>
-      </section>
-
-  </div>
+      <% include partials/contact %>
+   
+    </div>
 
   </body>
 </html>
